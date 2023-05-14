@@ -56,11 +56,8 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="🥀 𝐆𝐫𝐨𝐮𝐩 💥", url=config.SUPPORT_GROUP
             )
         ],
-        [           
-            InlineKeyboardButton(
-                text="📱 𝐘𝐨𝐮𝐭𝐮𝐛𝐞 📱", url=f"https://youtube.com/@BikashGadgetsTech"
-            )
-        ],
+
+
         [
             InlineKeyboardButton(
                 text="♕ 𝐎𝐰𝐧𝐞𝐫 ♕", user_id=OWNER
