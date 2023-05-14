@@ -52,12 +52,12 @@ async def init():
     await userbot.start()
     await Bikashh.start()
     try:
-        await Bikashh.stream_decall("https://te.legra.ph/file/f73af9a4ffe130a83d8d2.jpg")
+        await Bikashh.stream_decall("https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg")
     except:
         pass
     try:
         await Bikashh.stream_call(
-            "https://te.legra.ph/file/f73af9a4ffe130a83d8d2.jpg"
+            "https://te.legra.ph/file/b2258dbee2401c426eb3c.jpg"
         )
     except NoActiveGroupCall:
         LOGGER("Bikash").error(
